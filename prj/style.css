@@ -334,59 +334,59 @@ footer i{
         display: none;
     }
 
-#sidenav{
-    width: 250px;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 3;
-    background-color: var(--light);
-    padding-top: 70px;
-    display: block;
-    overflow: hidden;
-    transition: 0.5s ease-in-out;
-
-}
-#sidenav ul{
-    list-style: none;
-}
-#sidenav ul li{
-    display:block;
-    width: 200px;
-    position: relative;
-    z-index:99;
-    margin: 10px 20px;
-}
-#sidenav ul li a{
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    display: block;
-    font-size: 20px;
-    padding: 10px 20px;
-
-}
-
-#sidenav ul li a:hover{
-    color: var(--primary);
-}
-#sidenav ul li i{
-    color:white;
-    margin: 0px 5px;
-}
-#sidenav ul ul{
-    position: absolute;
-    top: 70px;
-    left: 0;
-    display: none;
-}
-#sidenav ul li:hover>ul{
-    display: block;
-}
-#sidenav ul ul li{
-    border-bottom: 1px solid white;
-}
+    #sidenav{
+        width: 0px;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        background-color: var(--light);
+        padding-top: 70px;
+        display: block;
+        overflow: hidden;
+        transition: 0.5s ease-in-out;
+    
+    }
+    #sidenav ul{
+        list-style: none;
+    }
+    #sidenav ul li{
+        display:block;
+        width: 200px;
+        position: relative;
+        z-index:99;
+        margin: 10px 20px;
+    }
+    #sidenav ul li a{
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        display: block;
+        font-size: 20px;
+        padding: 10px 20px;
+    
+    }
+    
+    #sidenav ul li a:hover{
+        color: var(--primary);
+    }
+    #sidenav ul li i{
+        color:white;
+        margin: 0px 5px;
+    }
+    #sidenav ul ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        display: none;
+    }
+    #sidenav ul li:hover>ul{
+        display: block;
+    }
+    #sidenav ul ul li{
+        border-bottom: 1px solid white;
+    }
     .featured{
         background-attachment: fixed;
     }
